@@ -1,0 +1,73 @@
+* {
+    font-family: Poppins, Segoe UI Emoji, Segoe UI, Segoe, Verdana, serif, sans-serif;
+    margin     : 0;
+    padding    : 0;
+    list-style : none;
+    box-sizing : border-box;
+    transition : .3s all;
+}
+
+#root {
+    height: 100%;
+    width : 100%;
+}
+
+.hide {
+    display: none;
+}
+
+.show {
+    display: block;
+}
+
+.divider-dashed {
+    margin: .5em 0;
+    border: 1px dashed white;
+}
+
+.divider-solid {
+    margin: .5em 0;
+    border: 1px solid white;
+}
+
+.msg {
+    text-shadow: 2px 2px 3px black;
+}
+
+.msg.error {
+    background   : crimson;
+    color        : white;
+    padding      : 5px;
+    border-radius: .3em;
+}
+
+.msg.success {
+    background   : limegreen;
+    color        : white;
+    padding      : 5px;
+    border-radius: .3em;
+}
+
+label:has(#togglepass) {
+    margin         : 1em 0;
+    display        : flex;
+    justify-content: flex-end;
+    align-items    : center;
+    font-size      : .8em;
+    font-weight    : bold;
+}
+
+label:has(#togglepass) input {
+    accent-color: orangered;
+}
+
+button:disabled,
+input[type="submit"]:disabled {
+    cursor: default;
+}
+
+main {
+    padding        : 2em;
+    display        : flex;
+    justify-content: center;
+}

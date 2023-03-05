@@ -1,0 +1,64 @@
+header {
+    padding        : 1em;
+    display        : flex;
+    flex-direction : row;
+    flex-wrap      : wrap;
+    gap            : .5em;
+    justify-content: space-between;
+    align-items    : center;
+    background     : lightblue;
+}
+
+header a {
+    padding        : .3em;
+    border-radius  : .3em;
+    outline-offset : 2px;
+    text-decoration: none;
+}
+
+header .home_nav_btn {
+    font-size: 1.2rem;
+}
+
+
+header ul {
+    display       : flex;
+    flex-direction: row;
+    gap           : .5em;
+    align-items   : center;
+}
+
+header ul li a {
+    font-weight   : 600;
+    letter-spacing: .1rem;
+    color         : black;
+}
+
+header ul li .btn_nav_signin:hover,
+header ul li .btn_nav_signin:focus {
+    background: orange;
+    color     : white;
+    box-shadow: 0 5px 5px #ffa600bd;
+}
+
+header ul li .btn_nav_signin:active {
+    background : orange;
+    box-shadow : 0 5px 5px darkorange inset;
+    color      : white;
+    text-shadow: 0 3px 3px darkorange;
+}
+
+
+header ul li .btn_nav_signup:hover,
+header ul li .btn_nav_signup:focus {
+    background: blue;
+    color     : white;
+    box-shadow: 0 5px 5px royalblue;
+}
+
+header ul li .btn_nav_signup:active {
+    background : blue;
+    box-shadow : 0 5px 5px darkblue inset;
+    color      : white;
+    text-shadow: 0 3px 3px darkblue;
+}

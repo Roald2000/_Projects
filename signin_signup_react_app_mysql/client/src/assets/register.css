@@ -1,0 +1,96 @@
+.register_form {
+    background: royalblue;
+    width     : fit-content;
+    height    : fit-content;
+    padding   : 1.5em;
+    display   : grid;
+    gap       : .5em;
+    width     : 400px;
+    max-width : 400px;
+}
+
+.register_form .input_section,
+.register_form .input_section label {
+    display    : grid;
+    gap        : 10px;
+    font-weight: bold;
+}
+
+.register_form .input_section label input {
+    padding       : .5em;
+    font-size     : 1.1rem;
+    outline-offset: 3px;
+    border-radius : .3em;
+    border        : none;
+}
+
+
+
+.register_form .instructions {
+    padding      : .5em;
+    border-radius: .3em;
+    background   : crimson;
+    color        : white;
+    font-size    : small;
+    text-align   : start;
+}
+
+.register_form .instructions li {
+    list-style-type    : none;
+    list-style-position: inside;
+    font-size          : .8rem;
+}
+
+.register_form .submit_section {
+    display       : flex;
+    flex-direction: row;
+    gap           : 5px;
+}
+
+.register_form .submit_section button {
+    border-radius : .3em;
+    border        : none;
+    outline-offset: 3px;
+    padding       : .5em;
+    width         : 100%;
+    cursor        : pointer;
+    font-weight   : bold;
+    letter-spacing: 3px;
+    text-shadow   : 2px 2px 4px black;
+}
+
+.register_form .submit_section .submit_button {
+    background: darkblue;
+    color     : white;
+}
+
+.register_form .submit_section .submit_button:hover {
+    background: #00008bcb;
+}
+
+.register_form .submit_section .reset_button {
+    background: crimson;
+    color     : white;
+}
+
+.register_form .submit_section .reset_button:hover {
+    background: #dc143cda;
+
+}
+
+
+.register_form .redirect_section {
+    text-align   : center;
+    background   : white;
+    padding      : 1em;
+    border-radius: .3em;
+}
+
+.register_form .redirect_section a {
+    background     : orange;
+    color          : white;
+    text-shadow    : 0 2px 3px black;
+    text-decoration: none;
+    padding        : .3em;
+    border-radius  : .3em;
+}

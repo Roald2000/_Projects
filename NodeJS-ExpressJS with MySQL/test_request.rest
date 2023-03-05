@@ -1,0 +1,33 @@
+### *
+
+GET http://localhost:2000/todo_list
+
+### *
+
+GET http://localhost:1000/crud/load_items
+
+### *
+GET http://localhost:2000/todo_list/find/new
+
+### *
+
+POST http://localhost:2000/todo_list/create
+Content-Type: application/json
+
+{
+    "todo": "Create App"
+}
+
+### *
+
+DELETE http://localhost:2000/todo_list/delete/1
+
+### *
+
+PUT http://localhost:2000/todo_list/update/2
+Content-Type: application/json
+
+{
+    "todo": "New App",
+    "is_done" : 1
+}

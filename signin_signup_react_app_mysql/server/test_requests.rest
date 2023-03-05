@@ -1,0 +1,36 @@
+POST http://localhost:3307/login
+Content-Type: application/json
+
+{
+    "username":"roald123dd",
+    "password":"Roald123!@#"
+}
+
+###
+
+POST http://localhost:3307/register
+Content-Type: application/json
+
+{
+    "username":"roald123",
+    "password":"Roald123!@#d"
+}
+
+
+###
+
+
+POST http://localhost:3307/register
+Content-Type: application/json
+
+{
+    "username":"",
+    "password":""
+}
+
+###
+
+GET http://localhost:3307/load_users
+
+ 
+
